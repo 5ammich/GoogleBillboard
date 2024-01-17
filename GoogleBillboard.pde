@@ -6,7 +6,7 @@ public void setup()
       double cNum = Double.parseDouble(calc);
       if (isPrime(cNum) == true){
         System.out.println(cNum + " is Prime");
-        //break;
+        break;
       }
 
      
