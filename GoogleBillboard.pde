@@ -5,8 +5,8 @@ public void setup()
       String calc = e.substring(i,i+10);
       double cNum = Double.parseDouble(calc);
       if (isPrime(cNum) == true){
-        System.out.println(cNum);
-        break;
+        System.out.println(cNum + " is Prime");
+        //break;
       }
 
      
